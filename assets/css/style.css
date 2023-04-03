@@ -11,8 +11,8 @@ h1, h2, h3, p{
 body {
     background-image: url('/assets/img/fundo.svg');
     background-position: center center;
-    height: 47vh;
-
+    width: 100%;
+    Background-repeat: no-repeat;
 }
 
 h1 {
@@ -36,11 +36,6 @@ h1 {
     font-size: 10px; 
     font-weight: 500;
     color: #fff;
- }
-
- .social-medias {
-    width: 42px;
-    padding-bottom: 20px;
  }
 
  .novalogo1 {
@@ -102,19 +97,7 @@ h1 {
     width: 293px;
     height: 45px;
     margin-top: 35px;
-    padding-bottom: 19px;
-    
-   
-}.retangulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 9px;
-    background-color: #121111;
-    box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-    width: 293px;
-    height: 45px;
-    margin-top: 35px;
+    padding-bottom: 19px;  
 }
 
 .social-media {
@@ -125,9 +108,14 @@ h1 {
     cursor: pointer;
 }
 
+.social-medias {
+    width: 42px;
+    padding-bottom: 20px;
+ }
+
 .footerc {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 190px;
 
 }
 
@@ -139,14 +127,66 @@ h1 {
 }
 
 .logo {
-    display: absolute;
     max-width: 60px;
-    margin-bottom: 530px;
+    margin-bottom: 510px;
     margin-right: 150px;
 }
 
 
 
-@media screen and (min-width: 800px) {
+@media (max-width: 768px) {
+    .segurando{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 240px;
+        height: 360px;
+        border-radius: 15px;
+        background-color: #121111;
+        box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
+        margin-top: 100px;
+    }
+
+    .retangulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 9px;
+        background-color: #121111;
+        box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
+        width: 239px;
+        height: 40px;
+        margin-top: 58px;
+        padding-bottom: 19px;  
+    }
+
+    .social-medias {
+        width: 35px;  
+        margin-top: 3.3px;  
+     }
+
+     .logo {
+        width: 52px;
+        margin-top: 55px;
+        margin-right: 143px;
+    }
+
+    .novalogo1 {
+        margin-top: 67px;
+        margin-left: 76%;
+        width: 100px;
+        height: 100px;   
+    }
     
+    .footerc {
+        text-align: center;
+        margin-top: 100px
+    }
+
+    body {
+        overflow:hidden;
+    }
+
+
+
 }
