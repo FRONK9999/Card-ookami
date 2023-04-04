@@ -11,8 +11,9 @@ h1, h2, h3, p{
 body {
     background-image: url('/assets/img/fundo.svg');
     background-position: center center;
-    min-width: 100%;
-    Background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
     margin-right: 10px;
     margin-left: 89%;
     max-width: 130px;
-    min-height: 100px;   
+    max-height: 100px;   
 }
 
 .container {
@@ -131,6 +132,7 @@ h1 {
 
     text-align: center;
     margin-top: 300px;
+    
 }
 
 @media (max-width: 800px) {
@@ -165,7 +167,7 @@ h1 {
     
     .footerc {
         text-align: center;
-        margin-top: 100px
+        margin-top: 400px;
     }
 
     body {
