@@ -131,7 +131,7 @@ h1 {
 .footerc {
 
     text-align: center;
-    margin-top: 100px;
+    
     
 }
 
@@ -144,6 +144,7 @@ h1 {
     .segurando {
         min-width: 260px;
         max-height: 345px;
+        margin-top: 150px;
     }
     
     .retangulo {
@@ -178,5 +179,12 @@ h1 {
         max-width: 35px;
         padding-bottom: 20px;
      }
+
+     .footerc {
+
+        text-align: center;
+        margin-top: 280px;
+        
+    }
 
 }
