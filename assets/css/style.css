@@ -136,27 +136,13 @@ h1 {
 
 @media (max-width: 800px) {
     .segurando{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         max-width: 240px;
-        max-height: 360px;
-        border-radius: 15px;
-        background-color: #121111;
-        box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-        margin-top: 45px;
+        min-height: 360px;
     }
 
     .retangulo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 9px;
-        background-color: #121111;
-        box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
         max-width: 239px;
-        max-height: 40px;
-        margin-top: 30px;
+        min-height: 20px;
         padding-bottom: 19px;  
     }
 
@@ -168,9 +154,11 @@ h1 {
      .logo {
         max-width: 52px;
         margin-right: 143px;
+        margin-bottom: 500px;
     }
 
     .novalogo1 {
+        margin-top: 77px;
         margin-left: 76%;
         max-width: 100px;
         max-height: 100px;   
