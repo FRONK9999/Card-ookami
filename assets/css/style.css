@@ -137,7 +137,8 @@ h1 {
 
 @media (max-width: 800px) {
     body {
-        background-size: 1000px;    
+        background-size: 1500px;   
+        background-attachment:fixed; 
     }
 
     .segurando {
