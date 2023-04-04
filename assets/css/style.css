@@ -11,7 +11,7 @@ h1, h2, h3, p{
 body {
     background-image: url('/assets/img/fundo.svg');
     background-position: center center;
-    width: 100%;
+    max-width: 100%;
     Background-repeat: no-repeat;
 }
 
@@ -139,12 +139,12 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 240px;
-        height: 360px;
+        max-width: 240px;
+        max-height: 360px;
         border-radius: 15px;
         background-color: #121111;
         box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-        margin-top: 100px;
+        margin-top: 45px;
     }
 
     .retangulo {
@@ -154,28 +154,26 @@ h1 {
         border-radius: 9px;
         background-color: #121111;
         box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-        width: 239px;
-        height: 40px;
-        margin-top: 58px;
+        max-width: 239px;
+        max-height: 40px;
+        margin-top: 30px;
         padding-bottom: 19px;  
     }
 
     .social-medias {
-        width: 35px;  
+        max-width: 35px;  
         margin-top: 3.3px;  
      }
 
      .logo {
-        width: 52px;
-        margin-top: 55px;
+        max-width: 52px;
         margin-right: 143px;
     }
 
     .novalogo1 {
-        margin-top: 67px;
         margin-left: 76%;
-        width: 100px;
-        height: 100px;   
+        max-width: 100px;
+        max-height: 100px;   
     }
     
     .footerc {
