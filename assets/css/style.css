@@ -11,7 +11,7 @@ h1, h2, h3, p{
 body {
     background-image: url('/assets/img/fundo.svg');
     background-position: center center;
-    max-width: 100%;
+    min-width: 100%;
     Background-repeat: no-repeat;
 }
 
@@ -41,44 +41,57 @@ h1 {
  .novalogo1 {
     margin-right: 10px;
     margin-left: 89%;
-    width: 130px;
-    height: 100px;   
-}
- 
-.perfil {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    padding-top: 40px;
+    max-width: 130px;
+    min-height: 100px;   
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    max-height: 100vh;
 }
-
 
 .segurando{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 290px;
-    height: 360px;
+    min-width: 290px;
+    max-height: 345px;
     border-radius: 15px;
     background-color: #121111;
     box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
     margin-top: 55px;
 }
 
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 170px;
+    padding-top: 40px;
+}
 
 .textos {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+   
+}
+
+.logo {
+    max-width: 60px;
+    margin-bottom: 559px;
+    margin-right: 150px;
 }
 
 .container1 {
@@ -94,9 +107,10 @@ h1 {
     border-radius: 9px;
     background-color: #121111;
     box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-    width: 293px;
-    height: 45px;
+    min-width: 293px;
+    max-height: 45px;
     margin-top: 35px;
+    margin-top: 5px;
     padding-bottom: 19px;  
 }
 
@@ -104,35 +118,20 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: space-between;
-    height: 20px;
+    max-height: 20px;
     cursor: pointer;
 }
 
 .social-medias {
-    width: 42px;
+    max-width: 42px;
     padding-bottom: 20px;
  }
 
 .footerc {
+
     text-align: center;
-    margin-top: 190px;
-
+    margin-top: 300px;
 }
-
-.container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 0vh;
-}
-
-.logo {
-    max-width: 60px;
-    margin-bottom: 510px;
-    margin-right: 150px;
-}
-
-
 
 @media (max-width: 800px) {
     .segurando{
