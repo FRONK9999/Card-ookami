@@ -144,9 +144,9 @@ h1 {
     }
 
     .segurando {
-        min-width: 260px;
-        max-height: 345px;
-        margin-top: 45px;
+        max-width: 290px;
+        max-height: 343px;
+      
     }
     
     .retangulo {
@@ -156,17 +156,8 @@ h1 {
         border-radius: 9px;
         background-color: #121111;
         box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.69);
-        min-width: 263px;
+        max-width: 227px;
         max-height: 45px;
-        margin-top: 35px;
-        margin-top: 5px;
-        padding-bottom: 16px;  
-    }
-
-    .novalogo1 {
-        margin-right: 10px;
-        margin-left: 77%;
-        max-width: 100px;
     }
 
     .social-media {
@@ -178,7 +169,7 @@ h1 {
     }
 
     .social-medias {
-        max-width: 35px;
+        max-width: 40px;
         padding-bottom: 20px;
      }
 
