@@ -181,3 +181,24 @@ h1 {
     }
 
 }
+
+@media (max-width: 320px) {
+    body {
+        overflow: hidden;
+    }
+    .segurando {
+        max-width: 200px;
+        max-height: 339px;
+        margin-top: 20px;
+      
+    }
+
+    .footerc {
+   
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+
+
+}
